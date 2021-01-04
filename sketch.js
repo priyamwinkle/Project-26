@@ -3,11 +3,11 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 
-var bob1,bob2,bob3,bob4,bob5,rope1,
+var bob1,bob2,bob3,bob4,bob5,rope1;
 
 
 
-function setup() {
+funtion setup (){
 	createCanvas(800, 700);
 
 
@@ -27,7 +27,6 @@ function setup() {
 
 
 	Engine.run(engine);
-  
 }
 
 
