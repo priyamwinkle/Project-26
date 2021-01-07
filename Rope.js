@@ -14,11 +14,24 @@ class Rope{
         this.sling.bodyA=null;
     }
     display(){
-        if(this.sling.bodyA){
-        var pointA=this.sling.bodyA.position;
-        var pointB=this.pointB;
-        strokeWeight(3);
-        line(pointA.x,pointA.y,pointB.x,pointB.y);
-        }
+        //if(this.sling.bodyA){
+        //var pointA=this.sling.bodyA.position;
+       // var pointB=this.pointB;
+        //strokeWeight(3);
+        //line(pointA.x,pointA.y,pointB.x,pointB.y);
+        //}
+        var pointA=this.rope.bodyA.position;
+        var pointB=this.rope.bodyB.position;
+
+        strokeWeight(2);
+
+        var Anchor1X=pointA.x;
+        var Anchor1Y=pointA.y;
+
+        var Anchor2X=pointB.x+this.offsetX;
+        var Anchor2Y=pointB.x+this.offsetX;
+
+        line(Anchor1X,AnchorY,Anchor2X,Anchor2Y);
+
     }
 }

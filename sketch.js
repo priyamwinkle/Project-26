@@ -7,7 +7,7 @@ var bob1,bob2,bob3,bob4,bob5,rope1;
 
 
 
-funtion setup (){
+function setup (){
 	createCanvas(800, 700);
 
 
@@ -20,7 +20,7 @@ funtion setup (){
 	bob4=new Bob(480,600,80);
 	bob5=new Bob(560,600,80);
 	roof=new Roof(400,100,600,40);
-	rope1=new Rope(bob1.body,roof.body,-BobDiameter*2,0);
+	rope1=new Rope(bob1.body,roof.body,-bob1Diameter*2,0);
 
 
 	
