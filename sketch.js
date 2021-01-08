@@ -13,6 +13,7 @@ function setup (){
 
 	engine = Engine.create();
 	world = engine.world;
+	bob1Diameter=40;
 
 	bob1=new Bob(240,600,80);
 	bob2=new Bob(320,600,80);
